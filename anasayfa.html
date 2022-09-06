@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        body{
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="container text-center " >ARAÇ KİRALAMA SİTESİ</h1>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="anasayfa.html">Anasayfa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="rezervasyon.html">Rezervasyon</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ofisler.html">Ofisler</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="araclar.html" target="_blank">Araçlar</a>
+      </li>
+    </ul>
+<!-- --------------------------------- -->
+rezervasyon  <br>
+<div class="accordion my-4" id="accordionExample">
+  <div class="accordion-item">
+      <h2 class="accordion-header" id="heading">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Rezervasyon Bilgileri
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="row">
+            <div class="col col-md-6>
+              <label for="ad">Adınız</label>
+              <input type="text" class="form-control"  name="ad">
+            </div>
+            <div class="col col-md-6">
+              <label for="soyad">Soyadınız</label>
+              <input type="text" class="form-control"  name="soyad">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-md-4">
+              <label for="kiralayan">Kiralayan </label>
+              <select id="inputState" class="form-control form-select" required>
+                <option selected>Seçiniz</option>
+                <option value="1">Özel</option>
+                <option value="2">Şirket</option>
+                <option value="3">Devlet Kurumu</option>
+              </select>
+            </div>
+            <div class="col col-md-4">
+              <label for="at">Araç Alış Tarihi</label>
+              <input type="date" class="form-control"  name="at">
+            </div>
+            <div class="col col-md-4">
+              <label for="tt">Araç Teslim Tarihi</label>
+              <input type="date" class="form-control"  name="tt">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col col-md-4">
+              <label for="inputState">Araç Modeli</label>
+              <select id="inputState" class="form-control form-select" required>
+                <option selected>Seçiniz</option>
+                <option value="1">Arazi Aracı</option>
+                <option value="2">Otomobil</option>
+                <option value="3">Karavan</option>
+              </select>
+            </div>
+            <div class="col col-md-4">
+              <label for="ehliyet">Ehliyet Sınıfı</label>
+              <input type="text" class="form-control"  name="ehliyet">
+            </div>
+            <div class="col col-md-4">
+              <br>
+              <button type="submit" class="btn btn-primary">Kiralama seçeneklerini göster</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>                      
+</div><br>
+<h4>popüler araçlar</h4> <br>
+<ul class="list-group list-group-horizontal">
+  <li class="list-group-item">
+    <img src="C:\Users\lenovo\Desktop\web\araba kiralama sitesi\kırmızı.jpg" alt="" height="200px">
+  </li>
+  <li class="list-group-item">
+    <img src="C:\Users\lenovo\Desktop\web\araba kiralama sitesi\mavi.jpg" alt="" height="200px">
+  </li>
+  <li class="list-group-item">
+    <img src="C:\Users\lenovo\Desktop\web\araba kiralama sitesi\turuncu.jpg" alt="" height="200px">
+  </li>
+  <li class="list-group-item">
+    <img src="C:\Users\lenovo\Desktop\web\araba kiralama sitesi\sarı.jpeg" alt="" height="200px">
+  </li>  
+</ul><br><h4>
+Papüler Lokasyonlar</h4> <br>
+<ul class="list-group list-group-horizontal-xl">
+  <li class="list-group-item">
+    <label >çifte minareli medrese</label>
+    <a href="https://www.kulturportali.gov.tr/turkiye/erzurum/gezilecekyer/cifte-minareli-medrese" target="_blank">
+      <img src="C:\Users\lenovo\Desktop\web\araba kiralama sitesi\cifteminare.jpg" alt=":" height="150px">
+    </a>
+  </li>
+  <li class="list-group-item">
+    <label for="">sümela manastırı</label>
+   <a href="https://www.kulturportali.gov.tr/turkiye/trabzon/gezilecekyer/meryem-ana-sumela-manastiri">
+    <img src="C:\Users\lenovo\Desktop\web\araba kiralama sitesi\sumela.jpg" alt=":"height="150px">
+   </a>
+  </li>
+  <li class="list-group-item">
+    <label for="">kız kalesi</label>
+    <a href="https://www.kulturportali.gov.tr/turkiye/mersin/gezilecekyer/kizkalesi-deniz-kalesi">
+      <img src="C:\Users\lenovo\Desktop\web\araba kiralama sitesi\kızkalesi.jpg" alt=":" height="150px">
+    </a>
+  </li>
+  <li class="list-group-item">
+    <label for="">düden şelalesi</label>
+    <a href="https://www.kulturportali.gov.tr/turkiye/antalya/gezilecekyer/duden-selalesi">
+      <img src="C:\Users\lenovo\Desktop\web\araba kiralama sitesi\duden.jpg" alt=":" height="150px">
+    </a>
+  </li>
+  <li class="list-group-item">
+    <label for="">dara antik kenti</label>
+    <a href="https://www.kulturportali.gov.tr/turkiye/mardin/gezilecekyer/dara-antik-kenti">
+      <img src="C:\Users\lenovo\Desktop\web\araba kiralama sitesi\dara.jpg" alt=":" height="150px">
+    </a>
+  </li>
+  <li class="list-group-item">
+    <label for="">ıhlara vadisi</label>
+    <a href="https://www.kulturportali.gov.tr/turkiye/aksaray/gezilecekyer/ihlara-vadisi">
+      <img src="C:\Users\lenovo\Desktop\web\araba kiralama sitesi\ıhlara.jpg" alt=":" height="150px">
+    </a>
+  </li>
+  <li class="list-group-item">
+    
+    <a href="https://www.kulturportali.gov.tr/turkiye/genel/gezilecekyer">daha fazla seçenek...
+    </a>
+  </li>
+</ul>
+<br><br><br>
+iletişim <br>
+telefon:05XX XXX XX XX <br>
+faks: XXX <br>
+e-posta : xxx@xxx.com
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
